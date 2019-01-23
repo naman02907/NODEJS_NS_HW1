@@ -76,7 +76,7 @@ var unifiedServer = function(req,res){
 var handler = {};
 
 handler.hello = function(data,callback){
-    callback(406, {'message' : 'welcome to NODEJS'});
+    callback(200, {'message' : 'welcome to NODEJS'});
 }
 
 handler.notfound = function(data,callback){
